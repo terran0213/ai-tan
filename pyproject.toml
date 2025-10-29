@@ -74,13 +74,13 @@ torch = [
 transformers = [
   "torch>=1.9,<2.9",
   "numpy",
-  "datasets>=1.12,<3.0",
+  "datasets>=1.12,<5.0",
   "transformers>=4.12.3",
   "sentencepiece==0.2.1",
   "sacremoses"
 ]
 datasets = [
-  "datasets>=1.12,<3.0"
+  "datasets>=1.12,<5.0"
 ]
 fairscale = [
   "torch>=1.9,<2.9",
@@ -88,7 +88,7 @@ fairscale = [
   "fairscale>=0.4.6,<0.5"
 ]
 flax = [
-  "datasets>=1.12,<3.0",
+  "datasets>=1.12,<5.0",
   "jax",
   "jaxlib",
   "flax",
